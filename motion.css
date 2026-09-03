@@ -19,6 +19,8 @@
   background: #020409;
   transition: opacity .45s ease, visibility .45s ease;
   animation: boot-dismiss .45s 1.6s forwards;
+
+  pointer-events: none;
 }
 
 .boot-screen::before {
